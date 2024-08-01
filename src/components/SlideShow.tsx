@@ -1,3 +1,5 @@
+import Image from 'next/image';
+import Link from 'next/link';
 import { useState } from 'react';
 
 const Slideshow = () => {
@@ -31,20 +33,20 @@ const Slideshow = () => {
                 <div className="max-w-sm">
                     <h1 className="text-5xl mb-6 font-display text-primary font-semibold leading-tight">Community of Information Technology</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <a href="#" className="flex items-center mt-8 text-sm text-white font-semibold">
-                    <div className='bg-primary rounded-md flex items-center p-2'>
-                        Gabung Sekarang
-                        <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M9 5l7 7-7 7"></path>
-                        </svg>
-                    </div>
-                    </a>
+                    <Link href="#" className="flex items-center mt-8 text-sm text-white font-semibold">
+                        <div className='bg-primary rounded-md flex items-center p-2'>
+                            Gabung Sekarang
+                            <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </div>
+                    </Link>
                 </div>
             </div>
             <div className="lg:col-span-7 relative h-52 md:h-72 lg:h-auto">
                 <div>
-                    <img src={items[current].image} className="absolute inset-0 w-full h-full rounded-md object-cover" alt="Slideshow" />
+                    <Image src={items[current].image} className="absolute inset-0 w-full h-full rounded-md object-cover" alt="Slideshow" fill />
                 </div>
                 <div className="absolute bottom-0 right-0 grid grid-cols-2">
                     <button className="p-4 md:p-6 rounded-tl-md bg-white hover:bg-gray-100 hover:opacity-80" onClick={prevSlide}>

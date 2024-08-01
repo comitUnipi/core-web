@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { useState } from 'react';
 
 const Navbar = () => {
@@ -15,11 +16,11 @@ const Navbar = () => {
     return (
         <div className="container mx-auto px-6 flex justify-between items-center py-4 h-32">
             <div className="flex items-center h-full">
-                <a href="/" className="text-2xl font-bold text-primary tracking-tighter h-full flex items-center">COMIT</a>
+                <Link href="/" className="text-2xl font-bold text-primary tracking-tighter h-full flex items-center">COMIT</Link>
                 <div className="hidden lg:flex items-center text-xs uppercase tracking-wider ml-4">
-                    <a href="#" className="ml-8">Tentang Kami</a>
-                    <a href="#" className="ml-8">Kegiatan</a>
-                    <a href="#" className="ml-8">Struktur</a>
+                    <Link href="#" className="ml-8">Tentang Kami</Link>
+                    <Link href="#" className="ml-8">Kegiatan</Link>
+                    <Link href="#" className="ml-8">Struktur</Link>
                     <button onClick={toggleContactInfo} type="button" className="uppercase ml-8">Kontak</button>
                 </div>
             </div>
@@ -36,7 +37,7 @@ const Navbar = () => {
                             </button>
                         </div>
                         <div className="px-12 pb-12 pt-2">
-                            <a href="mailto:comitunipi@gmail.com" className="flex items-center my-2">
+                            <Link href="mailto:comitunipi@gmail.com" className="flex items-center my-2">
                                 <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1"
@@ -44,17 +45,17 @@ const Navbar = () => {
                                     </path>
                                 </svg>
                                 comitunipi@gmail.com
-                            </a>
-                            <a href="#" className="flex items-center my-2">
+                            </Link>
+                            <Link href="#" className="flex items-center my-2">
                                 <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1"
                                         d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
                                     </path>
                                 </svg>
-                                comitunipem
-                            </a>
-                            <a href="#" target="_blank"
+                                comit.ipem
+                            </Link>
+                            <Link href="#" target="_blank"
                                 className="flex items-center my-2">
                                 <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -65,7 +66,7 @@ const Navbar = () => {
                                         d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                                 </svg>
                                 jln raya bitung bla bla
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -81,9 +82,9 @@ const Navbar = () => {
             </div>
             {showMobileMenu && (
                 <div className="md:hidden fixed inset-0 w-full h-full flex flex-col items-center justify-center bg-gray-100 z-40 uppercase space-y-4 text-xl tracking-widest text-center text-black">
-                    <a href="/products">Tentang Kami</a>
-                    <a href="/about">Kegiatan</a>
-                    <a href="/blog">Struktur</a>
+                    <Link href="/products">Tentang Kami</Link>
+                    <Link href="/about">Kegiatan</Link>
+                    <Link href="/blog">Struktur</Link>
                     <button onClick={toggleContactInfo} type="button"
                         className="uppercase tracking-widest text-black">Kontak</button>
                     <button className="absolute top-0 right-0 pr-8 pt-4" onClick={toggleMobileMenu} type="button">
