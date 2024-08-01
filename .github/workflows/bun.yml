@@ -1,4 +1,4 @@
-name: CI
+name: bun
 
 on:
   push:
@@ -15,6 +15,7 @@ jobs:
         with:
             bun-version: latest 
       - run: bun install 
+      - run: bun lint
       - run: bun next build
       - run: bun start &
       - run: sleep 30
