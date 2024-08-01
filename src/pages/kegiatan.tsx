@@ -5,7 +5,7 @@ import React from 'react'
 export default function Kegiatan() {
     return (
         <main>
-            <div className="mx-auto max-w-lg text-center py-24">
+            <div className="mx-auto max-w-lg text-center pt-4 pb-10 md:py-24">
                 <h2 className="text-4xl mb-6 uppercase">Kegiatan Acara Kami</h2>
                 <p className="text-md">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>

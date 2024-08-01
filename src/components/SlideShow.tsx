@@ -1,21 +1,19 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
+import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 
 const Slideshow = () => {
     const [current, setCurrent] = useState(0);
     const items = [
         {
             image: "/1.jpeg",
-            url: "#"
         },
         {
             image: "/2.jpeg",
-            url: "#"
         },
         {
             image: "/3.jpeg",
-            url: "#"
         },
     ];
 
@@ -32,14 +30,10 @@ const Slideshow = () => {
             <div className="lg:col-span-5 py-12 md:px-12 md:py-32 flex items-center justify-center">
                 <div className="max-w-sm">
                     <h1 className="text-5xl mb-6 font-display text-primary font-semibold leading-tight">Community of Information Technology</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <Link href="#" className="flex items-center mt-8 text-sm text-white font-semibold">
-                        <div className='bg-primary rounded-md flex items-center p-2'>
+                    <p className='text-muted-foreground'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <Link href="https://docs.google.com/forms/d/e/1FAIpQLScQTo1aPq0ejEg0lNiusVxI1FRk995zjQh05d5JlFWLK26TKA/viewform" className="flex items-center mt-8 text-sm text-white font-semibold">
+                        <div className='bg-primary rounded-md flex items-center py-2 px-4 hover:scale-110 hover:opacity-80'>
                             Gabung Sekarang
-                            <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M9 5l7 7-7 7"></path>
-                            </svg>
                         </div>
                     </Link>
                 </div>
@@ -50,16 +44,10 @@ const Slideshow = () => {
                 </div>
                 <div className="absolute bottom-0 right-0 grid grid-cols-2">
                     <button className="p-4 md:p-6 rounded-tl-md bg-white hover:bg-gray-100 hover:opacity-80" onClick={prevSlide}>
-                        <svg className="w-6 h-6 md:w-10 md:h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7"></path>
-                        </svg>
+                        <IoIosArrowBack />
                     </button>
                     <button className="p-4 md:p-6 bg-white hover:bg-gray-100 hover:opacity-80" onClick={nextSlide}>
-                        <svg className="w-6 h-6 md:w-10 md:h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
-                        </svg>
+                        <IoIosArrowForward />
                     </button>
                 </div>
             </div>
