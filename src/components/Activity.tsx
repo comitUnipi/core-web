@@ -4,7 +4,7 @@ import React from 'react'
 
 const Activity = () => {
     return (
-        <div>
+        <div className='mt-24'>
             <h2 className="text-center uppercase font-display text-lg md:text-3xl text-black py-12 md:py-24 px-6">Kegiatan Kami</h2>
             {activity.map((item, index) => {
                 const isEvenIndex = (index + 1) % 2 === 0;
