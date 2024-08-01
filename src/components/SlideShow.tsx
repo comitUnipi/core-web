@@ -32,7 +32,7 @@ const Slideshow = () => {
                     <h1 className="text-5xl mb-6 font-display text-primary font-semibold leading-tight">Community of Information Technology</h1>
                     <p className='text-muted-foreground'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <Link href="https://docs.google.com/forms/d/e/1FAIpQLScQTo1aPq0ejEg0lNiusVxI1FRk995zjQh05d5JlFWLK26TKA/viewform" className="flex items-center mt-8 text-sm text-white font-semibold">
-                        <div className='bg-primary rounded-md flex items-center py-2 px-4'>
+                        <div className='bg-primary rounded-md flex items-center py-2 px-4 hover:scale-110 hover:opacity-80'>
                             Gabung Sekarang
                         </div>
                     </Link>
