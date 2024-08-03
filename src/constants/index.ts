@@ -1,4 +1,4 @@
-import { FaInstagram } from "react-icons/fa"
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa"
 import { TfiEmail } from "react-icons/tfi"
 
 export const navitems = [
@@ -18,8 +18,8 @@ export const navitems = [
 
 export const contactitems = [
     {
-        title: "comitunipi@gmail.com",
-        href: "mailto:comitunipi@gmail.com",
+        title: "comit.unipi@gmail.com",
+        href: "mailto:comit.unipi@gmail.com",
         icon: TfiEmail
     },
     {
@@ -49,5 +49,74 @@ export const activity = [
         img: "/3.jpeg",
         title: "Penerimaan Anggota Baru LDKO",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatibus magnam culpa dignissimos! Voluptatem dignissimos tenetur corporis ullam nostrum repellat est. Nam atque ab minus minima ad, voluptas qui rem!"
+    },
+]
+
+export const mentor = [
+    {
+        img: "/1.jpeg",
+        name: "Nama Mentor",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        sosmed: [
+            {
+                title: "instagram",
+                icon: FaInstagram,
+                href: ""
+            },
+            {
+                title: "LinkedIn",
+                icon: FaLinkedin,
+                href: ""
+            },
+            {
+                title: "Github",
+                icon: FaGithub,
+                href: ""
+            }
+        ]
+    },
+    {
+        img: "/1.jpeg",
+        name: "Nama Mentor",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        sosmed: [
+            {
+                title: "instagram",
+                icon: FaInstagram,
+                href: ""
+            },
+            {
+                title: "LinkedIn",
+                icon: FaLinkedin,
+                href: ""
+            },
+            {
+                title: "Github",
+                icon: FaGithub,
+                href: ""
+            }
+        ]
+    },
+    {
+        img: "/1.jpeg",
+        name: "Nama Mentor",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        sosmed: [
+            {
+                title: "instagram",
+                icon: FaInstagram,
+                href: ""
+            },
+            {
+                title: "LinkedIn",
+                icon: FaLinkedin,
+                href: ""
+            },
+            {
+                title: "Github",
+                icon: FaGithub,
+                href: ""
+            }
+        ]
     },
 ]
