@@ -10,12 +10,12 @@ interface ToggleNavbarProps {
 const ToggleNavbar: React.FC<ToggleNavbarProps> = ({ show, toggleFunction, children }) => {
     return show ? (
         <div className="z-50 bg-black bg-opacity-50 fixed inset-0 w-screen min-h-screen lg:h-screen flex justify-center items-center p-12">
-            <div className="w-full max-w-sm rounded-md bg-white text-black text-xs uppercase shadow-2xl">
+            <div className="w-full max-w-sm rounded-md bg-white text-black text-xs shadow-2xl">
                 <div className="pt-6 pr-6 flex justify-end">
-                    <button 
-                    className="p-2 border rounded-md"
-                    onClick={toggleFunction} 
-                    type="button">
+                    <button
+                        className="p-2 border rounded-md"
+                        onClick={toggleFunction}
+                        type="button">
                         <IoClose />
                     </button>
                 </div>
