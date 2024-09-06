@@ -5,7 +5,7 @@ import React from 'react'
 const Activity = () => {
     return (
         <div className='mt-24'>
-            <h2 className="text-center uppercase font-display text-4xl text-black py-12 md:py-24 px-6">Kegiatan Kami</h2>
+            <h2 className="text-center uppercase font-semibold text-3xl text-blue-600 py-12 md:py-24 px-6">Kegiatan Kami</h2>
             {activity.map((item, index) => {
                 const isEvenIndex = (index + 1) % 2 === 0;
                 return (
@@ -15,7 +15,7 @@ const Activity = () => {
                         <div className="relative h-52 md:h-72 lg:h-auto">
                             <div>
                                 <Image
-                                    className="absolute inset-0 w-full h-full object-cover"
+                                    className="absolute inset-0 w-full h-full rounded-md shadow-sm shadow-blue-500 object-cover"
                                     src={item.img}
                                     alt={item.title}
                                     fill />
@@ -27,10 +27,10 @@ const Activity = () => {
                                 'order-last md:order-first' : 'order-last'}`}>
                             <div>
                                 <h3
-                                    className="text-4xl mb-6 font-display text-black leading-tight">
+                                    className="text-3xl mb-6 font-display text-black leading-tight">
                                     {item.title}
                                 </h3>
-                                <p className='text-muted-foreground'>{item.desc}</p>
+                                <p className='text-justify text-muted-foreground'>{item.desc}</p>
                             </div>
                         </div>
                     </div>
