@@ -6,8 +6,8 @@ export default function Kegiatan() {
     return (
         <main>
             <div className="mx-auto max-w-lg text-center pt-4 pb-10 md:py-24">
-                <h2 className="text-4xl mb-6 uppercase">Kegiatan Acara Kami</h2>
-                <p className="text-md">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h2 className="text-4xl text-blue-600 font-semibold mb-6 uppercase">Kegiatan Acara Kami</h2>
+                <p className="text-md text-muted-foreground">Kami dengan bangga mempersembahkan berbagai kegiatan dan acara yang telah kami selenggarakan. Setiap acara dirancang untuk memberikan pengalaman yang berkesan dan penuh makna.</p>
             </div>
             {activity.map((item, index) => {
                 const isEvenIndex = (index + 1) % 2 === 0;
@@ -18,7 +18,7 @@ export default function Kegiatan() {
                         <div className="relative h-52 md:h-72 lg:h-auto">
                             <div>
                                 <Image
-                                    className="absolute rounded-md inset-0 w-full h-full object-cover"
+                                    className="absolute rounded-md shadow-sm shadow-blue-400 inset-0 w-full h-full object-cover"
                                     src={item.img}
                                     alt={item.title}
                                     fill />
