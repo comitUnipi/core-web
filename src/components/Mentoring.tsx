@@ -1,52 +1,52 @@
+import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
-import { FaUserCircle } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 export const Mentoring = () => {
     return (
         <main>
-            <h2 className="text-center uppercase font-semibold text-3xl text-blue-600 py-12 md:py-24 px-6">Perkenalkan Mentor kami</h2>
-            <div className='container mx-auto h-[400px] flex item-center'>
-                <ol className="items-center sm:flex">
-                    <li className="relative mb-6 sm:mb-0">
-                        <div className="flex items-center">
-                            <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                                <FaUserCircle />
+            <h1 className="text-center uppercase font-semibold text-3xl text-blue-600  px-6">Perkenalkan Mentor kami</h1>
+            <h2 className="text-center font-base text-md text-muted-foreground pt-4 pb-12 px-6">Kami mempunyai beberapa mentor yang sudah berpengalaman di bidangnya masing-masing</h2>
+            <div className='container mx-auto h-auto lg:ml-60 xl:ml-96'>
+                <ol className="relative border-s border-gray-200">
+                    <li className="mb-10 ms-4">
+                        <div className="absolute w-3 h-3 bg-blue-400 rounded-full mt-1.5 -start-1.5 border border-white"></div>
+                        <h1 className="mb-1 text-xl font-normal leading-none text-blue-600">Mentor Programming</h1>
+                        <div className="items-center block p-3 sm:flex sm:gap-4">
+                            <Image className="w-[150px] h-[150px] object-cover mt-3 mb-3 me-3 rounded-full sm:mb-0" src="/idham_mubarok.jpg" alt="picture" width={100} height={100} />
+                            <div className="text-gray-600 dark:text-gray-400">
+                                <h1 className="text-xl text-black font-normal">Idham Mubarok</h1>
+                                <div className='flex gap-2 items-center'>
+                                    <Link className="mt-3 hover:scale-110 flex items-center gap-2 text-sm" href="https://www.instagram.com/idham_mubarok">
+                                        <FaInstagram size={28} className='text-rose-500' />
+                                    </Link>
+                                    <Link className="mt-3 hover:scale-110 flex items-center gap-2 text-sm" href="https://www.linkedin.com/in/idham-mubarok-71543b171/">
+                                        <FaLinkedin size={28} className='text-blue-500' />
+                                    </Link>
+                                    <Link className="mt-3 hover:scale-110 flex items-center gap-2 text-sm" href="https://web.facebook.com/idam.mubarok">
+                                        <FaFacebook size={28} className='text-blue-500' />
+                                    </Link>
+                                </div>
                             </div>
-                            <h2 className='px-3'>Programing</h2>
-                            <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-                        </div>
-                        <div className="mt-3 sm:pe-8">
-                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Idham Mubarok</h3>
-                            <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Mentor Programing</time>
-                            <p className="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements.</p>
                         </div>
                     </li>
-                    <li className="relative mb-6 sm:mb-0">
-                        <div className="flex items-center">
-                            <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                                <FaUserCircle />
+                    <li className="mb-10 ms-4">
+                        <div className="absolute w-3 h-3 bg-blue-400 rounded-full mt-1.5 -start-1.5 border border-white"></div>
+                        <h1 className="mb-1 text-xl font-normal leading-none text-blue-600">Mentor Graphic Design</h1>
+                        <div className="items-center block p-3 sm:flex sm:gap-4">
+                            <Image className="w-[150px] h-[150px] mt-3 mb-3 object-cover me-3 rounded-full sm:mb-0" src="/aditya_anwary.jpeg" alt="picture" width={100} height={100} />
+                            <div className="text-gray-600 dark:text-gray-400">
+                                <h1 className="text-xl text-black font-normal">Aditya Anwary</h1>
+                                <div className='flex gap-2 items-center'>
+                                    <Link className="mt-3 hover:scale-110 flex items-center gap-2 text-sm" href="https://www.instagram.com/adnr_id">
+                                        <FaInstagram size={28} className='text-rose-500' />
+                                    </Link>
+                                    <Link className="mt-3 hover:scale-110 flex items-center gap-2 text-sm" href="https://www.linkedin.com/in/aditya-anwary-graphic-designer-a6486b1b2/">
+                                        <FaLinkedin size={28} className='text-blue-500' />
+                                    </Link>
+                                </div>
                             </div>
-                            <h2 className='px-3'>Graphic Desainer</h2>
-                            <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-                        </div>
-                        <div className="mt-3 sm:pe-8">
-                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Aditya Anwary</h3>
-                            <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Mentor Graphic Designer</time>
-                            <p className="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements.</p>
-                        </div>
-                    </li>
-                    <li className="relative mb-6 sm:mb-0">
-                        <div className="flex items-center">
-                            <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                                <FaUserCircle />
-                            </div>
-                            <h2 className='px-3'>Comp & Network</h2>
-                            <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-                        </div>
-                        <div className="mt-3 sm:pe-8">
-                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Flowbite Library v1.3.0</h3>
-                            <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on January 5, 2022</time>
-                            <p className="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements.</p>
                         </div>
                     </li>
                 </ol>

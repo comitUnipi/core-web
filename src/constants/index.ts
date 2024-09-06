@@ -55,8 +55,9 @@ export const activity = [
 export const mentor = [
     {
         img: "/1.jpeg",
-        name: "Nama Mentor",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        divisi: "Programming",
+        name: "Idham Mubarok",
+        desc: "Mentor Programming",
         sosmed: [
             {
                 title: "instagram",
@@ -78,29 +79,8 @@ export const mentor = [
     {
         img: "/1.jpeg",
         name: "Nama Mentor",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        sosmed: [
-            {
-                title: "instagram",
-                icon: FaInstagram,
-                href: ""
-            },
-            {
-                title: "LinkedIn",
-                icon: FaLinkedin,
-                href: ""
-            },
-            {
-                title: "Github",
-                icon: FaGithub,
-                href: ""
-            }
-        ]
-    },
-    {
-        img: "/1.jpeg",
-        name: "Nama Mentor",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        divisi: "Graphic Design",
+        desc: "Mentor Graphic Design",
         sosmed: [
             {
                 title: "instagram",
