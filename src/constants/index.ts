@@ -36,19 +36,19 @@ export const contactitems = [
 
 export const activity = [
     {
-        img: "/1.jpeg",
+        img: "/pelatihan.jpeg",
         title: "Pelatihan Rutin",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatibus magnam culpa dignissimos! Voluptatem dignissimos tenetur corporis ullam nostrum repellat est. Nam atque ab minus minima ad, voluptas qui rem!"
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatibus magnam culpa dignissimos!"
     },
     {
-        img: "/2.jpeg",
+        img: "/data_analyst.JPG",
+        title: "Workshop Data Analyst",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatibus magnam culpa dignissimos!"
+    },
+    {
+        img: "/arduino.JPG",
         title: "Workshop Arduino",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatibus magnam culpa dignissimos! Voluptatem dignissimos tenetur corporis ullam nostrum repellat est. Nam atque ab minus minima ad, voluptas qui rem!"
-    },
-    {
-        img: "/3.jpeg",
-        title: "Penerimaan Anggota Baru LDKO",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatibus magnam culpa dignissimos! Voluptatem dignissimos tenetur corporis ullam nostrum repellat est. Nam atque ab minus minima ad, voluptas qui rem!"
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatibus magnam culpa dignissimos!"
     },
 ]
 
