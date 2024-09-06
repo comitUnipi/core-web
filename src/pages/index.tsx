@@ -13,7 +13,7 @@ export default function Home() {
       <Activity />
       <Discover />
       {/* <Mentor /> */}
-      {/* <Mentoring/> */}
+      <Mentoring/>
     </main>
   );
 }
