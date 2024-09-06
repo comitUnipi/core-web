@@ -365,7 +365,7 @@ export default function Struktur() {
                             </div>
                         </div>
                     </li>
-
+                  
                 </ol>
             </div>
         </main>
