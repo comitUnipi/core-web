@@ -59,7 +59,7 @@ export const Section = () => {
           variants={itemVariants}
         >
           <Image
-            src="/banner.JPG"
+            src="/banner.png"
             className="w-full h-full rounded-md brightness-75 object-cover"
             alt="banner"
             width={1280}
