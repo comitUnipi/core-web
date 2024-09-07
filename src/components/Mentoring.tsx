@@ -69,7 +69,7 @@ export const Mentoring = () => {
               >
                 <Image
                   className="w-full h-full object-cover mt-3 mb-3 me-3 rounded-full sm:mb-0"
-                  src="/idham_mubarok.jpg"
+                  src="/idham_mubarok.png"
                   alt="picture"
                   width={100}
                   height={100}
@@ -126,7 +126,7 @@ export const Mentoring = () => {
               >
                 <Image
                   className="w-full h-full mt-3 mb-3 object-cover me-3 rounded-full sm:mb-0"
-                  src="/aditya_anwary.jpeg"
+                  src="/aditya_anwary.png"
                   alt="picture"
                   width={100}
                   height={100}
