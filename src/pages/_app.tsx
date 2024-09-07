@@ -27,13 +27,13 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="author" content="Comit" />
         <meta property="og:site_name" content="Comit Unipi" />
         <meta property="og:type" content="website" />
-        <meta property="og:image:alt" content="Community of Information Technology (COMIT) adalah departement organisasi yang ada di Universitas Insan Pembangunan Indonesia" />
+        <meta property="og:image:alt" content="Community of Information Technology (COMIT)" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:site" content="@handleTwitter" />
         <meta property="twitter:title" content="Comit Unipi" />
         <meta
           property="twitter:description"
-          content="Community of Information Technology (COMIT)"
+          content="Community of Information Technology (COMIT) adalah departement organisasi yang ada di Universitas Insan Pembangunan Indonesia"
         />
         <meta property="twitter:image" content="https://comit-unipi.vercel.app/favicon.png" />
       </Head>
