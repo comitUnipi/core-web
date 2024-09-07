@@ -37,17 +37,17 @@ export const contactitems = [
 
 export const activity = [
   {
-    img: '/pelatihan.jpeg',
+    img: '/pelatihan.png',
     title: 'Pelatihan Rutin',
     desc: 'Pelatihan rutin yang kami adakan telah memberikan kontribusi signifikan dalam pengembangan keterampilan peserta di berbagai bidang.',
   },
   {
-    img: '/data_analyst.JPG',
+    img: '/data_analyst.png',
     title: 'Workshop Data Analyst',
     desc: 'Dalam Workshop Data Analyst yang telah kami laksanakan, peserta memperoleh keterampilan penting dalam menganalisis dan menginterpretasikan data.',
   },
   {
-    img: '/arduino.JPG',
+    img: '/arduino.png',
     title: 'Workshop Arduino',
     desc: 'Workshop Arduino yang telah kami selenggarakan memberikan pengalaman langsung kepada peserta dalam dunia elektronik dan pemrograman. Peserta belajar menggunakan platform Arduino untuk merancang dan mengembangkan project tentang lampu pintar.',
   },
@@ -55,7 +55,7 @@ export const activity = [
 
 export const mentor = [
   {
-    img: '/1.jpeg',
+    img: '/1.png',
     divisi: 'Programming',
     name: 'Idham Mubarok',
     desc: 'Mentor Programming',
@@ -78,7 +78,7 @@ export const mentor = [
     ],
   },
   {
-    img: '/1.jpeg',
+    img: '/1.png',
     name: 'Nama Mentor',
     divisi: 'Graphic Design',
     desc: 'Mentor Graphic Design',
