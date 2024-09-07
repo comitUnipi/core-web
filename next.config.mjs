@@ -4,6 +4,6 @@ const nextConfig = {
   images: {
     domains: ['cdn.vectorstock.com'],
   },
-};
+}
 
-export default nextConfig;
+export default nextConfig
