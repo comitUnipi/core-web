@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
           property="og:description"
           content="Community of Information Technology (COMIT) adalah departement organisasi yang ada di Universitas Insan Pembangunan Indonesia"
         />
-        <meta property="og:image" content="/favicon.png" />
+        <meta property="og:image" content="https://comit-unipi.vercel.app/favicon.png" />
         <meta property="og:url" content="https://comit-unipi.vercel.app" />
         <link rel="canonical" href="https://comit-unipi.vercel.app" />
         <link rel="icon" href="/favicon.png" type="image/x-icon" />
@@ -27,7 +27,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="author" content="Comit" />
         <meta property="og:site_name" content="Comit Unipi" />
         <meta property="og:type" content="website" />
-        <meta property="og:image:alt" content="Deskripsi gambar" />
+        <meta property="og:image:alt" content="Community of Information Technology (COMIT)" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:site" content="@handleTwitter" />
         <meta property="twitter:title" content="Comit Unipi" />
@@ -35,7 +35,7 @@ export default function App({ Component, pageProps }: AppProps) {
           property="twitter:description"
           content="Community of Information Technology (COMIT) adalah departement organisasi yang ada di Universitas Insan Pembangunan Indonesia"
         />
-        <meta property="twitter:image" content="/favicon.png" />
+        <meta property="twitter:image" content="https://comit-unipi.vercel.app/favicon.png" />
       </Head>
       <Navbar />
       <Component {...pageProps} />
