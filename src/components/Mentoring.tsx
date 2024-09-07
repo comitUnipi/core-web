@@ -28,7 +28,7 @@ export const Mentoring = () => {
     const [titleRef, titleInView] = useIntersectionObserver({ threshold: 0.2 });
     const [itemRefs, itemInView] = useIntersectionObserver({ threshold: 0.2 });
     return (
-        <main>
+        <main className='h-auto md:h-screen'>
             <motion.h1 
                 ref={titleRef}
                 className="text-center uppercase font-semibold text-3xl text-blue-600 px-6"
