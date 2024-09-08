@@ -40,7 +40,7 @@ export const Section = () => {
               Semangat COMIT, Salam Teknologi.
             </h2>
             <Link
-              href="https://docs.google.com/forms/d/e/1FAIpQLScQTo1aPq0ejEg0lNiusVxI1FRk995zjQh05d5JlFWLK26TKA/viewform"
+              href="https://docs.google.com/forms/d/1zJ6eclZN7GJzI7ch3wgM0kAGJPxlZYvw5g6T3wBnAVY/viewform?chromeless=1&edit_requested=true"
               passHref
             >
               <motion.div

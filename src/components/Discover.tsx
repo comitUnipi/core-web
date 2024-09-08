@@ -14,7 +14,7 @@ export const Discover = () => {
               kami
             </p>
             <Link
-              href="/"
+              href="https://docs.google.com/forms/d/1zJ6eclZN7GJzI7ch3wgM0kAGJPxlZYvw5g6T3wBnAVY/viewform?chromeless=1&edit_requested=true"
               className="inline-block shadow-xl bg-blue-500 rounded-md uppercase text-sm py-4 px-6 mt-8 hover:scale-110 hover:opacity-75"
             >
               Gabung Sekarang
