@@ -1,3 +1,5 @@
+import Metadata from '@/lib/metadata'
+import { globalBreadcrumbs } from '@/utils/breadcrumbs'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -5,7 +7,14 @@ import { FaInstagram } from 'react-icons/fa'
 
 export default function Struktur() {
   return (
-    <main>
+    <>
+      <Metadata
+        title="COMIT | Tentang Kami"
+        description="Community of Information Technology (COMIT) adalah departement organisasi yang ada di Universitas Insan Pembangunan Indonesia"
+        image="https://comit-unipi.vercel.app/favicon.png"
+        url="https://comit-unipi.vercel.app"
+        breadcrumbs={globalBreadcrumbs.struktur}
+      />
       <div className="h-full container mx-auto">
         <ol className="relative border-s border-gray-200">
           <li className="mb-10 ms-4">
@@ -661,6 +670,6 @@ export default function Struktur() {
           </li>
         </ol>
       </div>
-    </main>
+    </>
   )
 }

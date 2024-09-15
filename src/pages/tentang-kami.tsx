@@ -1,10 +1,19 @@
 import Image from 'next/image'
 import React from 'react'
 import { motion } from 'framer-motion'
+import { globalBreadcrumbs } from '@/utils/breadcrumbs'
+import Metadata from '@/lib/metadata'
 
 export default function About() {
   return (
-    <main>
+    <>
+      <Metadata
+        title="COMIT | Tentang Kami"
+        description="Community of Information Technology (COMIT) adalah departement organisasi yang ada di Universitas Insan Pembangunan Indonesia"
+        image="https://comit-unipi.vercel.app/favicon.png"
+        url="https://comit-unipi.vercel.app"
+        breadcrumbs={globalBreadcrumbs.tentang_kami}
+      />
       <div className="h-full">
         <div className="px-6 flex items-center justify-center">
           <div className="max-w-2xl">
@@ -144,6 +153,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </main>
+    </>
   )
 }
