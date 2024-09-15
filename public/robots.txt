@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://comit-unipi.vercel.app
+
+# Sitemaps
+Sitemap: https://comit-unipi.vercel.app/sitemap.xml

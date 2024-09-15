@@ -2,10 +2,19 @@ import { activity } from '@/constants'
 import Image from 'next/image'
 import React from 'react'
 import { motion } from 'framer-motion'
+import Metadata from '@/lib/metadata'
+import { globalBreadcrumbs } from '@/utils/breadcrumbs'
 
 export default function Kegiatan() {
   return (
-    <main>
+    <>
+      <Metadata
+        title="COMIT | Tentang Kami"
+        description="Community of Information Technology (COMIT) adalah departement organisasi yang ada di Universitas Insan Pembangunan Indonesia"
+        image="https://comit-unipi.vercel.app/favicon.png"
+        url="https://comit-unipi.vercel.app"
+        breadcrumbs={globalBreadcrumbs.kegiatan}
+      />
       <div className="mx-auto max-w-lg text-center pt-4 pb-10 md:py-24">
         <motion.h2
           className="text-4xl text-blue-600 font-semibold mb-6 uppercase"
@@ -71,6 +80,6 @@ export default function Kegiatan() {
           </motion.div>
         )
       })}
-    </main>
+    </>
   )
 }
